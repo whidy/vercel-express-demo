@@ -5,6 +5,7 @@ app.get("/api", (req, res) => {
   res.send("Hello World!");
 });
 
+// need vercel.json
 app.get('/api/item/:slug', (req, res) => {
   const { slug } = req.params;
   res.end(`Item: ${slug}`);
