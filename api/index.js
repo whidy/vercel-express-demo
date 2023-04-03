@@ -11,4 +11,8 @@ app.get('/api/item/:slug', (req, res) => {
   res.end(`Item: ${slug}`);
 });
 
+app.get('/api/test2', (req, res) => {
+  res.send('The test2 in api/index.js!')
+})
+
 module.exports = app;
