@@ -4,8 +4,8 @@ const port = 3200
 app.use(express.static('public'))
 
 
-app.get('/', (req, res) => {
-  res.send('The first Hello World!')
+app.get('/api/test', (req, res) => {
+  res.send('The test in app.js!')
 })
 
 app.listen(port, () => {
