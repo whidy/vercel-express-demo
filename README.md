@@ -12,5 +12,5 @@
 
 比如我这个例子可访问路径：
 
-* https://vercel-express-demo.vercel.app/api
-* https://vercel-express-demo.vercel.app/api/item/4
+* https://vercel-express-demo-api.vercel.app/api
+* https://vercel-express-demo-api.vercel.app/api/item/4
