@@ -17,3 +17,7 @@
 * https://vercel-express-demo-api.vercel.app/api
 * https://vercel-express-demo-api.vercel.app/api/item/4
 * https://vercel-express-demo-api.vercel.app/api/test2
+
+## 2023年04月07日
+
+被我大改了。。。正在研究vite express vue3的同构应用实践。

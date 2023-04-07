@@ -71,7 +71,6 @@ export async function createServer(
       },
       appType: "custom",
     });
-    app.use(apiRouter);
     app.use(vite.middlewares);
   } else {
     app.use((await import("compression")).default());
@@ -82,6 +81,7 @@ export async function createServer(
       })
     );
   }
+  app.use(apiRouter);
 
   app.use("*", async (req, res) => {
     try {
